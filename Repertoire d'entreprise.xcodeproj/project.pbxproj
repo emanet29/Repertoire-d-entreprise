@@ -13,6 +13,8 @@
 		4C8CB64520C6BA860045E135 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C8CB64420C6BA860045E135 /* Assets.xcassets */; };
 		4C8CB64820C6BA860045E135 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C8CB64620C6BA860045E135 /* LaunchScreen.storyboard */; };
 		4C8CB65420C6BCA80045E135 /* AjoutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8CB65320C6BCA80045E135 /* AjoutController.swift */; };
+		4C8CB65620C6C2350045E135 /* ImageArrondie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8CB65520C6C2350045E135 /* ImageArrondie.swift */; };
+		4C8CB65820C6C3850045E135 /* BoutonArrondi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8CB65720C6C3850045E135 /* BoutonArrondi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		4C8CB64720C6BA860045E135 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C8CB64920C6BA860045E135 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C8CB65320C6BCA80045E135 /* AjoutController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AjoutController.swift; sourceTree = "<group>"; };
+		4C8CB65520C6C2350045E135 /* ImageArrondie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageArrondie.swift; sourceTree = "<group>"; };
+		4C8CB65720C6C3850045E135 /* BoutonArrondi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoutonArrondi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,8 @@
 		4C8CB65020C6BB830045E135 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				4C8CB65520C6C2350045E135 /* ImageArrondie.swift */,
+				4C8CB65720C6C3850045E135 /* BoutonArrondi.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -171,7 +177,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C8CB63B20C6BA850045E135 /* AppDelegate.swift in Sources */,
+				4C8CB65620C6C2350045E135 /* ImageArrondie.swift in Sources */,
 				4C8CB65420C6BCA80045E135 /* AjoutController.swift in Sources */,
+				4C8CB65820C6C3850045E135 /* BoutonArrondi.swift in Sources */,
 				4C8CB64320C6BA850045E135 /* Repertoire_d_entreprise.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
