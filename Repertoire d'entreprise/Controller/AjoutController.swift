@@ -24,9 +24,14 @@ class AjoutController: UIViewController {
     
     var entreprises = [Entreprise]()
     
+    var imagePicker: UIImagePickerController?
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        miseEnPlaceImagePicker()
         miseEnPlacePicker()
         fetchEntreprises()
         
