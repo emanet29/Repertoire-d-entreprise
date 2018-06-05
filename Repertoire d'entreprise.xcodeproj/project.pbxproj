@@ -16,6 +16,7 @@
 		4C8CB65620C6C2350045E135 /* ImageArrondie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8CB65520C6C2350045E135 /* ImageArrondie.swift */; };
 		4C8CB65820C6C3850045E135 /* BoutonArrondi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8CB65720C6C3850045E135 /* BoutonArrondi.swift */; };
 		4C8CB65A20C6C4CD0045E135 /* PickerViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8CB65920C6C4CD0045E135 /* PickerViewExtension.swift */; };
+		4C8CB65D20C6C9E10045E135 /* Constantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8CB65C20C6C9E10045E135 /* Constantes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		4C8CB65520C6C2350045E135 /* ImageArrondie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageArrondie.swift; sourceTree = "<group>"; };
 		4C8CB65720C6C3850045E135 /* BoutonArrondi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoutonArrondi.swift; sourceTree = "<group>"; };
 		4C8CB65920C6C4CD0045E135 /* PickerViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewExtension.swift; sourceTree = "<group>"; };
+		4C8CB65C20C6C9E10045E135 /* Constantes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constantes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		4C8CB63920C6BA850045E135 /* Repertoire d'entreprise */ = {
 			isa = PBXGroup;
 			children = (
+				4C8CB65B20C6C9D30045E135 /* Utilitaires */,
 				4C8CB65120C6BB880045E135 /* Model */,
 				4C8CB65020C6BB830045E135 /* View */,
 				4C8CB64F20C6BB7B0045E135 /* Controller */,
@@ -106,6 +109,14 @@
 				4C8CB64620C6BA860045E135 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		4C8CB65B20C6C9D30045E135 /* Utilitaires */ = {
+			isa = PBXGroup;
+			children = (
+				4C8CB65C20C6C9E10045E135 /* Constantes.swift */,
+			);
+			path = Utilitaires;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,6 +195,7 @@
 				4C8CB65A20C6C4CD0045E135 /* PickerViewExtension.swift in Sources */,
 				4C8CB65420C6BCA80045E135 /* AjoutController.swift in Sources */,
 				4C8CB65820C6C3850045E135 /* BoutonArrondi.swift in Sources */,
+				4C8CB65D20C6C9E10045E135 /* Constantes.swift in Sources */,
 				4C8CB64320C6BA850045E135 /* Repertoire_d_entreprise.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

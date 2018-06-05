@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CoreData
 
 class AjoutController: UIViewController {
     
@@ -21,13 +22,13 @@ class AjoutController: UIViewController {
     @IBOutlet weak var largeurContrainte: NSLayoutConstraint!
     @IBOutlet weak var contrainteDuBas: NSLayoutConstraint!
     
-    var testPicker = ["Apple","Alphabet","Big Blue","Microsoft","Facebook"]
-    
+    var entreprises = [Entreprise]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         miseEnPlacePicker()
+        fetchEntreprises()
         
 
     }
@@ -38,6 +39,16 @@ class AjoutController: UIViewController {
         scroll.contentSize = CGSize(width: largeurContrainte.constant, height: scroll.frame.height)
     }
     
+    func fetchEntreprises() {
+        let requete: NSFetchRequest<Entreprise> = Entreprise.fetchRequest()
+        do {
+            entreprises = try contexte.fetch(requete)
+            pickerView.reloadAllComponents()
+        } catch {
+            print(error.localizedDescription)
+        }
+        
+    }
     
     @IBAction func ajouterEntrepriseAction(_ sender: Any) {
     }
