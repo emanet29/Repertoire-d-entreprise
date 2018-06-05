@@ -15,6 +15,7 @@
 		4C8CB65420C6BCA80045E135 /* AjoutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8CB65320C6BCA80045E135 /* AjoutController.swift */; };
 		4C8CB65620C6C2350045E135 /* ImageArrondie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8CB65520C6C2350045E135 /* ImageArrondie.swift */; };
 		4C8CB65820C6C3850045E135 /* BoutonArrondi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8CB65720C6C3850045E135 /* BoutonArrondi.swift */; };
+		4C8CB65A20C6C4CD0045E135 /* PickerViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8CB65920C6C4CD0045E135 /* PickerViewExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		4C8CB65320C6BCA80045E135 /* AjoutController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AjoutController.swift; sourceTree = "<group>"; };
 		4C8CB65520C6C2350045E135 /* ImageArrondie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageArrondie.swift; sourceTree = "<group>"; };
 		4C8CB65720C6C3850045E135 /* BoutonArrondi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoutonArrondi.swift; sourceTree = "<group>"; };
+		4C8CB65920C6C4CD0045E135 /* PickerViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				4C8CB65320C6BCA80045E135 /* AjoutController.swift */,
+				4C8CB65920C6C4CD0045E135 /* PickerViewExtension.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 			files = (
 				4C8CB63B20C6BA850045E135 /* AppDelegate.swift in Sources */,
 				4C8CB65620C6C2350045E135 /* ImageArrondie.swift in Sources */,
+				4C8CB65A20C6C4CD0045E135 /* PickerViewExtension.swift in Sources */,
 				4C8CB65420C6BCA80045E135 /* AjoutController.swift in Sources */,
 				4C8CB65820C6C3850045E135 /* BoutonArrondi.swift in Sources */,
 				4C8CB64320C6BA850045E135 /* Repertoire_d_entreprise.xcdatamodeld in Sources */,
