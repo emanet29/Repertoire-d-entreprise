@@ -83,6 +83,29 @@ class AjoutController: UIViewController {
     
     
     @IBAction func ajouterPersonneAction(_ sender: Any) {
+        view.endEditing(true)
+        let nouvellePersonne = Personne(context: contexte)
+        if prenomTextField.text != nil {
+            nouvellePersonne.prenom = prenomTextField.text!
+        }
+        
+        if nomTextField.text != nil {
+            nouvellePersonne.nom = nomTextField.text!
+        }
+        
+        if let numero = telTextField.text, let numeroInt = Int32(numero) {
+            nouvellePersonne.numero = numeroInt
+        }
+        
+        if mailTextField.text != nil {
+            nouvellePersonne.mail = mailTextField.text!
+        }
+        
+        nouvellePersonne.photo = imageDeProfil.image
+        nouvellePersonne.employeur = entreprises[pickerView.selectedRow(inComponent: 0)]
+        
+        appDelegate.saveContext()
+        
     }
     
     
