@@ -18,6 +18,7 @@
 		4C8CB65A20C6C4CD0045E135 /* PickerViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8CB65920C6C4CD0045E135 /* PickerViewExtension.swift */; };
 		4C8CB65D20C6C9E10045E135 /* Constantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8CB65C20C6C9E10045E135 /* Constantes.swift */; };
 		4C8CB65F20C6CFAA0045E135 /* ImagePickerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8CB65E20C6CFAA0045E135 /* ImagePickerExtension.swift */; };
+		4C8CB66120C7FD260045E135 /* TextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8CB66020C7FD260045E135 /* TextFieldExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		4C8CB65920C6C4CD0045E135 /* PickerViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewExtension.swift; sourceTree = "<group>"; };
 		4C8CB65C20C6C9E10045E135 /* Constantes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constantes.swift; sourceTree = "<group>"; };
 		4C8CB65E20C6CFAA0045E135 /* ImagePickerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerExtension.swift; sourceTree = "<group>"; };
+		4C8CB66020C7FD260045E135 /* TextFieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				4C8CB65320C6BCA80045E135 /* AjoutController.swift */,
 				4C8CB65920C6C4CD0045E135 /* PickerViewExtension.swift */,
 				4C8CB65E20C6CFAA0045E135 /* ImagePickerExtension.swift */,
+				4C8CB66020C7FD260045E135 /* TextFieldExtension.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C8CB66120C7FD260045E135 /* TextFieldExtension.swift in Sources */,
 				4C8CB63B20C6BA850045E135 /* AppDelegate.swift in Sources */,
 				4C8CB65620C6C2350045E135 /* ImageArrondie.swift in Sources */,
 				4C8CB65A20C6C4CD0045E135 /* PickerViewExtension.swift in Sources */,
