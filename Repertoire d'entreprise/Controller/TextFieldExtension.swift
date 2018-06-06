@@ -15,8 +15,6 @@ extension AjoutController: UITextFieldDelegate {
         nomTextField.delegate = self
         telTextField.delegate = self
         mailTextField.delegate = self
-        
-        
     }
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {

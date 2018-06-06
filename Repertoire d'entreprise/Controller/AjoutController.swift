@@ -17,11 +17,8 @@ class AjoutController: UIViewController {
     @IBOutlet weak var ajouterEntreprise: UIButton!
     @IBOutlet weak var prenomTextField: UITextField!
     @IBOutlet weak var nomTextField: UITextField!
-    
     @IBOutlet weak var telTextField: UITextField!
-    
     @IBOutlet weak var mailTextField: UITextField!
-    
     @IBOutlet weak var ajouterPersonneBouton: BoutonArrondi!
     @IBOutlet weak var largeurContrainte: NSLayoutConstraint!
     @IBOutlet weak var contrainteDuBas: NSLayoutConstraint!
@@ -38,6 +35,7 @@ class AjoutController: UIViewController {
         miseEnPlaceImagePicker()
         miseEnPlacePicker()
         miseEnPlaceTextField()
+        miseEnPlaceNotification()
         fetchEntreprises()
     }
     
