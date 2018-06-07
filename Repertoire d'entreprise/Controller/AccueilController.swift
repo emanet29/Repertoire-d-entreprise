@@ -80,4 +80,21 @@ class AccueilController: UIViewController, UITableViewDelegate, UITableViewDataS
         return entreprises[section].nom
     }
     
+    
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
+        switch editingStyle {
+        case .delete:
+            if let personneASupprimer = entreprises[indexPath.section].employes?.allObjects[indexPath.row] as? Personne {
+                contexte.delete(personneASupprimer)
+                do {
+                    try contexte.save()
+                } catch {
+                    print(error.localizedDescription)
+                }
+                self.tableView.deleteRows(at: [indexPath], with: .fade)
+            }
+        default:
+            return
+        }
+    }
 }

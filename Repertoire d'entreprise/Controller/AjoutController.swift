@@ -102,8 +102,7 @@ class AjoutController: UIViewController {
         }
         
         nouvellePersonne.photo = imageDeProfil.image
-        nouvellePersonne.employeur = entreprises[pickerView.selectedRow(inComponent: 0)]
-        
+        nouvellePersonne.employeur = entreprises[pickerView.selectedRow(inComponent: 0)+1]
         appDelegate.saveContext()
         navigationController?.popViewController(animated: true)
         

@@ -28,8 +28,8 @@ extension AjoutController: UIPickerViewDelegate,UIPickerViewDataSource {
     }
     
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        let nomDeLentreprise = entreprises[row].nom ?? ""
-        print("Ligne choisie : " + nomDeLentreprise)
+        //let nomDeLentreprise = entreprises[row].nom ?? ""
+        //print("Ligne choisie : " + nomDeLentreprise)
     }
     
     
